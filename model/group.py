@@ -1,5 +1,4 @@
 
-from sys import maxsize
 
 class Group:
 
@@ -16,4 +15,4 @@ class Group:
 
 
     def key(self):
-        return maxsize
+        return self.name
